@@ -1,0 +1,52 @@
+.artigos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+
+}
+article{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.1);
+  text-align: left;
+
+}
+jer.mais{
+  display: block;
+  margin-left: auto;
+  padding: 12px 30px;
+  border: 2px solid #6a5acd;
+  background: white;
+  color: #6a5acd;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+article h2{
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+article p{
+  color: #444;
+  margin-bottom: 25px;
+}
+button{
+  margin-left: auto;
+  background-color: white;
+  color: violet;
+  border-radius: 5px;
+  
+  padding:5px ;
+
+
+
+} 
